@@ -1,0 +1,47 @@
+version: 0.0.1
+type: plugin
+description:
+  en_US: docs-testing
+  ja_JP: docs-testing
+  zh_Hans: docs-testing
+  pt_BR: docs-testing
+label:
+  en_US: allen-test
+  ja_JP: allen-test
+  zh_Hans: allen-test
+  pt_BR: allen-test
+author: allen
+name: allen-test
+icon: icon.svg
+created_at: 2024-11-28T15:15:24.488703+08:00
+resource:
+  memory: 268435456
+  permission:
+    model:
+      enabled: true
+      llm: true
+      text_embedding: false
+      rerank: false
+      tts: false
+      speech2text: false
+      moderation: false
+    endpoint:
+      enabled: true
+    app:
+      enabled: true
+    storage:
+      enabled: true
+      size: 1048576
+plugins:
+  endpoints:
+    - group/allen-test.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+verified: false
