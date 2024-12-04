@@ -1,0 +1,6 @@
+   [ERROR]failed to create plugin decoder , plugin path: neko, error: stat neko: no such file or directory
+ [ERROR]failed to create plugin decoder , plugin path: allen-test-extension, error: stat allen-test-extension: no such file or directory
+      [ERROR]failed to create plugin decoder , plugin path: allen-package, error: stat allen-package: no such file or directory
+ [ERROR]failed to create plugin decoder , plugin path: allen-package, error: open allen-package/manifest.yaml: no such file or directory
+       [ERROR]failed to create plugin decoder , plugin path: allen-test-extension, error: stat allen-test-extension: no such file or directory
+ 
